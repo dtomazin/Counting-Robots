@@ -1,18 +1,28 @@
 body {
      
-    padding: 20px;
+    /* padding: 20px; */
     background-image: url(../images/fire.jpg); 
+    image-orientation: flip; 
     background-size: 100%;
     background-repeat: no-repeat; 
+    height:auto;
+    background-color: black
     
+   
 }
 h1 {
 
 font-family: 'Staatliches', cursive;
 }
+
+
+
+
 #jumbo {
-    font-size: 120px; 
-    margin-right: 30px;
+    font-size: 100px; 
+    padding-top: -20px;
+    border-top: 20%; 
+    
 }
 
 .container {
@@ -20,25 +30,32 @@ font-family: 'Staatliches', cursive;
     font-size: 20px; 
 }
 #robot1 {
-    margin-right: 100px; 
+    margin-right: 50px; 
+     
     
 }
 #robot2 {
-    margin-right: 100px; 
+    margin-right: 50px; 
 }
 #robot3 {
-    margin-right: 100px; 
+    margin-right: 50px; 
+}
+#robot4 {
+    margin-right: 50px; 
 }
 
 #targetScore {
-    font-size: 40px; 
+    font-size: 30px; 
 }
 #yourScore {
-    font-size: 40px; 
+    font-size: 30px; 
 }
 #winCount {
-    font-size:35px; 
+    font-size:30px; 
 }
 #lossCount {
-    font-size: 35px; 
+    font-size:30px; 
+}
+#images {
+    margin-left:40px; 
 }
